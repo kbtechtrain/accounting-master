@@ -381,7 +381,7 @@ fmt.Println(accounting.FormatNumberBigDecimal(apd.New(apd.New(4999999, -3), 3, "
 ```
 
 ## FormatNumberBigDecimal(value apd.Decimal, precision int, thousand string, decimal string) string
-
+#Adding something
 FormatNumberDecimal only supports [apd.Decimal](https://github.com/cockroachdb/apd) value. It is faster than FormatNumber, because it does not do any runtime type evaluation.
 
 **Examples:**
